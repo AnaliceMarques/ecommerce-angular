@@ -1,0 +1,11 @@
+<div class="h-100 bg-body-secondary d-flex justify-content-center align-items-center">
+  <mat-card class="w-50 h-25 d-flex justify-content-center align-items-center">
+    <mat-card-header class="d-flex justify-content-center mb-3">
+      <mat-card-title>O que você deseja gerenciar?</mat-card-title>
+    </mat-card-header>
+    <mat-card-content class="mx-auto">
+      <button  mat-flat-button color="primary" [disabled]="usuarioLogado.tipo !== 'ADMIN'" class="me-4"><mat-icon>account_circle</mat-icon> Usuários</button>
+      <button mat-flat-button color="primary" [routerLink]="'/listar-produtos'"><mat-icon>store</mat-icon> Produtos</button>
+    </mat-card-content>
+  </mat-card>
+</div>

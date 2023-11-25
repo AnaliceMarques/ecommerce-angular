@@ -1,0 +1,34 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "name": "Blusa",
+      "brand": "Coolci",
+      "size": "M",
+      "reference": "123456",
+      "category": "FEMININA",
+      "price": 250,
+      "image": "https://d3vnyi5j6ba1mc.cloudfront.net/Custom/Content/Products/16/15/1615888_camiseta-manga-curta-logo-340105999_z1_638266654999442748.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Calça",
+      "brand": "Forum",
+      "image": "https://d3vnyi5j6ba1mc.cloudfront.net/Custom/Content/Products/16/21/1621696_calca-jeans-adidas-mia-com-recortes-24607032_l1_638276081491630195.jpg",
+      "size": "G",
+      "reference": "456789",
+      "category": "FEMININA",
+      "price": 500
+    },
+    {
+      "id": 3,
+      "name": "teste",
+      "brand": "teste",
+      "size": "M",
+      "reference": "123456",
+      "category": "FEMININA",
+      "price": 123,
+      "image": "https://lojausereserva.vtexassets.com/arquivos/ids/7138147-800-auto?v=637987698209330000&width=800&height=auto&aspect=true"
+    }
+  ]
+}
